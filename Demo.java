@@ -1,14 +1,14 @@
 class Demo{
-  static int[][] testBoi = new int[][] {{6,9,4},{2,0,1}};
+  //static int[][] testBoi = new int[][] {{6,9,4},{2,0,1}};
   public static void main(String[] args) {
     if (args.length == 0){
       printLoop(5);
     }else{
       printLoop(Integer.parseInt(args[0]));
     }
-    System.out.println(arrrayDeepToString(testBoi));
-    System.out.println(arrrayDeepToString(create2DArray(4,4,4)).replace("}, ","},\n "));
-    System.out.println(arrrayDeepToString(create2DArrayRandomized(4,4,4)).replace("}, ","},\n "));
+    //System.out.println(arrrayDeepToString(testBoi));
+    //System.out.println(arrrayDeepToString(create2DArray(4,4,4)).replace("}, ","},\n "));
+    //System.out.println(arrrayDeepToString(create2DArrayRandomized(4,4,4)).replace("}, ","},\n "));
   }
   public static void printLoop(int n){
     for(int i = 1; i<=n; i++){
