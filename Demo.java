@@ -28,7 +28,7 @@ class Demo{
     }
     return result+"}";
   }
-  public static String arrrayDeepToString(int[][] arr){
+  public static String arrayDeepToString(int[][] arr){
     String result = "{";
     for(int i = 0; i<arr.length;i++){
       result += arrToString(arr[i]);
